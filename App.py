@@ -11,7 +11,7 @@ from diffusers import StableDiffusionPipeline
 # Create the app
 app = tk.Tk()
 app.geometry("532x632")
-app.title("Brooke Picto") 
+app.title("Brooke PictoGenerator") 
 ctk.set_appearance_mode("dark") 
 
 prompt = ctk.CTkEntry(height=40, width=512, text_font=("Arial" ,20), text_color="black", fg_color="white") 
